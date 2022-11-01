@@ -40,13 +40,15 @@ function App() {
             <img  src={slack} alt="slack logo" id="slack_logo"></img>
             <img src={github} alt="slack logo" id="git_logo"></img>
           </div>
-          <div id="footer">
-            <p id="zuri_text">Zuri<span id="fullstop">.</span>Internship</p>
+    
+            <div id="footer">
+              <p id="zuri_text">Zuri<span id="fullstop">.</span>Internship</p>
 
-            <p id="HNG_text">HNG Internship 9 Frontend Task</p>
+              <p id="HNG_text">HNG Internship 9 Frontend Task</p>
 
-            <img src={zuriLogo} alt="zuri logo" id="zuri_logo"></img>
-          </div>
+              <img src={zuriLogo} alt="zuri logo" id="zuri_logo"></img>
+            </div>
+          
         </section>
       </header>
     </div>
