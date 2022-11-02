@@ -1,0 +1,358 @@
+@media screen and (max-width: 700px) {
+  @import url("https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Open+Sans&display=swap");
+
+  .App {
+    position: relative;
+    width: 375px;
+    height: 1088px;
+    overflow-y: scroll;
+    background: #ffffff;
+  }
+
+  .App-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 0px 32px;
+    gap: 24px;
+    position: absolute;
+    width: 375px;
+    height: 892px;
+    left: 0px;
+    top: 0px;
+    background: #ffffff;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 16px;
+    gap: 32px;
+    width: 375px;
+    height: 700px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  #profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    isolation: isolate;
+    width: 343px;
+    height: 140px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  #profile_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 88px;
+    height: 88px;
+    border-radius: 275px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+  }
+
+  #profile p {
+    width: 343px;
+    height: 28px;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #101828;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+  }
+
+  #share {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 0px;
+    top: 10px;
+    background: #ffffff;
+    border: 1px dashed #d0d5dd;
+    border-radius: 20px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    z-index: 2;
+  }
+
+  #shareBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    top: 15%;
+    bottom: 15%;
+    border-radius: 12px;
+  }
+
+  #shareIcon {
+    width: 20px;
+    height: 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: url("./images/dots-horizontal.png");
+  }
+
+  #rows {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 343px;
+    height: 528px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .rows {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 343px;
+    height: 68px;
+    overflow-x: scroll;
+    filter: drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.05));
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  #twitter_Btn,
+  #Btn_Zuri,
+  #books,
+  #books_python,
+  #pitch,
+  #book_design {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 32px;
+    gap: 8px;
+    width: 343px;
+    height: 68px;
+    background: #eaecf0;
+    border: 1px solid #eaecf0;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+  }
+
+  a {
+    width: 67px;
+    height: 20px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #101828;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  #logos {
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 0px;
+    gap: 64px;
+    width: 375px;
+    height: 72px;
+    background: #ffffff;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  #logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 16px;
+    gap: 32px;
+    width: 375px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .logo-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 343px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 343px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+  }
+
+  #slack_logo {
+    width: 24px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  #git_logo {
+    width: 24px;
+    height: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  #footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 0px;
+    gap: 64px;
+    position: absolute;
+    width: 375px;
+    height: 196px;
+    left: 0px;
+    top: 892px;
+    background: #ffffff;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 16px;
+    gap: 32px;
+    width: 375px;
+    height: 132px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .footer_content {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 32px 0px 0px;
+    gap: 16px;
+    width: 343px;
+    height: 132px;
+    border-top: 1px solid #eaecf0;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  #zuri-logo {
+    width: 140.69px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  #zuri-text {
+    position: absolute;
+    left: 4.72%;
+    right: 0.64%;
+    top: 30.82%;
+    bottom: 0.88%;
+    color: #000000;
+  }
+
+  #zuri-dot {
+    position: absolute;
+    left: 18.4%;
+    right: 67.94%;
+    top: 35%;
+    bottom: 15.98%;
+    color: #e7332b;
+  }
+
+  #HNG_text {
+    width: 213px;
+    height: 20px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667085;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  #zuri_logo {
+    width: 99.1px;
+    height: 24px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  }
+}

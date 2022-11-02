@@ -4,25 +4,25 @@
   position: relative;
   width: 1440px;
   height: 1158px;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
 * {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .App-header {
   display: flex;
-flex-direction: column;
-align-items: center;
-padding: 64px 112px;
-gap: 24px;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 112px;
+  gap: 24px;
 
-position: absolute;
-width: 1440px;
-height: 998px;
-left: 0px;
-top: 0px;
+  position: absolute;
+  width: 1440px;
+  height: 998px;
+  left: 0px;
+  top: 0px;
 }
 
 .main {
@@ -42,17 +42,17 @@ top: 0px;
 
 #profile {
   display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-gap: 24px;
-isolation: isolate;
-width: 1152px;
-height: 142px;
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  isolation: isolate;
+  width: 1152px;
+  height: 142px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
 #profile_img {
@@ -71,101 +71,127 @@ flex-grow: 0;
 }
 
 #profile p {
-width: 1152px;
-height: 30px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 30px;
-text-align: center;
-color: #101828;
-flex: none;
-order: 0;
-flex-grow: 1;
+  width: 1152px;
+  height: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #101828;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+#share {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 450px;
+  top: 20px;
+  background: #ffffff;
+  border: 1px dashed #d0d5dd;
+  border-radius: 20px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  z-index: 2;
 }
 
 #shareBtn {
-position: absolute;
-width: 40px;
-height: 40px;
-right: 450px;
-top: 20px;
-background: #FFFFFF;
-border: 1px dashed #D0D5DD;
-border-radius: 20px;
-flex: none;
-order: 2;
-flex-grow: 0;
-z-index: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  top: 15%;
+  bottom: 15%;
+  border-radius: 12px;
 }
 
+#shareIcon {
+  width: 20px;
+  height: 20px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: url("./images/share-06.png");
+}
 
 #rows {
   display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 56px;
-margin-bottom: 40px;
-width: 1152px;
-height: 774px;
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-} 
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 56px;
+  margin-bottom: 40px;
+  width: 1152px;
+  height: 774px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
 
 .rows {
   display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px;
-gap: 12px;
-width: 1152px;
-height: 76px;
-filter: drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.05));
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  width: 1152px;
+  height: 76px;
+  filter: drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.05));
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
-#twitter_Btn, #Btn_Zuri, #books, #books_python, #pitch, #book_design {
+#twitter_Btn,
+#Btn_Zuri,
+#books,
+#books_python,
+#pitch,
+#book_design {
   box-sizing: border-box;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 24px 32px;
-gap: 8px;
-width: 1152px;
-height: 76px;
-background: #EAECF0;
-border: 1px solid #EAECF0;
-border-radius: 8px;
-flex: none;
-order: 0;
-flex-grow: 1;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
+  gap: 8px;
+  width: 1152px;
+  height: 76px;
+  background: #eaecf0;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
 }
 
 a {
-width: 101px;
-height: 28px;
-font-family: 'Inter';
-font-weight: 500;
-font-size: 18px;
-line-height: 28px;
-display: flex;
+  width: 101px;
+  height: 28px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  display: flex;
 
-align-items: center;
-text-align: center;
-color: #101828;
-flex: none;
+  align-items: center;
+  text-align: center;
+  color: #101828;
+  flex: none;
 
-text-decoration: none;
+  text-decoration: none;
 }
 
 #Slack_Btn {
@@ -174,71 +200,69 @@ text-decoration: none;
 
 #logos {
   display: flex;
-flex-direction: column;
-align-items: center;
-margin: 60px 0px;
-gap: 64px;
-width: 1216px;
-height: 72px;
-background: #FFFFFF;
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
-
+  flex-direction: column;
+  align-items: center;
+  margin: 60px 0px;
+  gap: 64px;
+  width: 1216px;
+  height: 72px;
+  background: #ffffff;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
 #logo-container {
   display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px 32px;
-gap: 32px;
-width: 1216px;
-height: 24px;
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 32px;
+  gap: 32px;
+  width: 1216px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
 .logo-content {
   display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
-width: 1152px;
-height: 24px;
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  width: 1152px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
 .social-icons {
   display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px;
-gap: 24px;
-width: 1152px;
-height: 24px;
-flex: none;
-order: 0;
-flex-grow: 1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 1152px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
 }
 
 #slack_logo {
-width: 24px;
-height: 24px;
-flex: none;
-order: 0;
-flex-grow: 0;
+  width: 24px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 #git_logo {
-
   width: 24px;
   height: 24px;
   flex: none;
@@ -247,81 +271,88 @@ flex-grow: 0;
 }
 
 #footer {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-padding: 48px 0px;
-gap: 64px;
-position: absolute;
-width: 1440px;
-height: 160px;
-left: 0px;
-top: 1050px;
-background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 0px;
+  gap: 64px;
+  position: absolute;
+  width: 1440px;
+  height: 160px;
+  left: 0px;
+  top: 1050px;
+  background: #ffffff;
 }
 
 .footer {
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px 32px;
-gap: 32px;
-width: 1280px;
-height: 64px;
-flex: none;
-order: 0;
-flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 32px;
+  gap: 32px;
+  width: 1280px;
+  height: 64px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .footer_content {
-box-sizing: border-box;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 32px 0px 0px;
-gap: 32px;
-width: 1216px;
-height: 64px;
-border-top: 1px solid #EAECF0;
-flex: none;
-order: 0;
-flex-grow: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 32px 0px 0px;
+  gap: 32px;
+  width: 1216px;
+  height: 64px;
+  border-top: 1px solid #eaecf0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
-#zuri-logo{
-  position: absolute;
-  left: 5.72%;
-  right: 0.64%;
-  top: 51.82%;
-  bottom: 0.88%;
+#zuri-logo {
+  width: 187.59px;
+  height: 32px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#zuri-text {
   color: #000000;
+  position: absolute;
+  left: 10%;
+  right: 0.64%;
+  top: 50.82%;
+  bottom: 0.88%;
 }
 
 #zuri-dot {
-  position: absolute;
-  left: 9.2%;
-  right: 67.94%;
-  top: 56.79%;
-  bottom: 15.98%;
-  color: #E7332B; 
+position: absolute;
+left: 13.5%;
+right: 67.94%;
+top: 55%;
+bottom: 15.98%;
+color: #E7332B
 }
 
 #HNG_text {
-  margin-right: -220px;
-  width: 832.28px;
-  height: 24px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  color: #667085;
-  flex: none;
-  order: 1;
-  flex-grow: 1;
+width: 832.28px;
+height: 24px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #667085;
+flex: none;
+order: 1;
+flex-grow: 1;
 }
 
 #zuri_logo {

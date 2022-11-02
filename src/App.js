@@ -1,8 +1,8 @@
 import profileImg from "../src/images/evans.png";
-import shareIcon from "../src/images/shareIcon2.png";
+//import shareIcon from "../src/images/share-06.png";
 import github from "../src/images/github_icon.png";
 import slack from "../src/images/slack-icon.png";
-import zuriLogo from "../src/images/zuriLogo.webp";
+import zuriLogo from "../src/images/I4G.png";
 import zuri_icon from "../src/images/zuri-logo.png";
 import zuri_dot from "../src/images/zuri-dot.png";
 import "./App.css";
@@ -17,7 +17,9 @@ function App() {
             <img src={profileImg} alt="profile" id="profile_img"></img>
             <p>Evans Okoli</p>
             <div id="share">
-              <img src={shareIcon} alt="share icon" id="shareBtn"></img>
+              <div id="shareBtn">
+                <div id="shareIcon"></div>
+              </div>
             </div>
           </div>
           <section id="rows">
@@ -73,7 +75,7 @@ function App() {
                 Design Books
               </a>
             </div>
-            `{" "}
+            {" "}
           </section>
         </div>
 
@@ -92,10 +94,10 @@ function App() {
       <div id="footer">
         <div className="footer">
           <div className="footer_content">
-            <>
-              <img src={zuri_icon} alt="zuri logo" id="zuri-logo"></img>
+            <div id="zuri-logo">
+              <img src={zuri_icon} alt="zuri logo" id="zuri-text"></img>
               <img src={zuri_dot} alt="zuri logo" id="zuri-dot"></img>
-            </>
+            </div>
 
             <p id="HNG_text">HNG Internship 9 Frontend Task</p>
 
